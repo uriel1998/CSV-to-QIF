@@ -13,17 +13,17 @@ The way you use the converter is by passing it a file to convert, the file name 
 
 Example of converting a file stored in the same directory as the program:
 
-```python CSV-to-QIF.py [file-to-convert.csv] [export-file.qif] [csv-discription.def]
+    python CSV-to-QIF.py [file-to-convert.csv] [export-file.qif] [csv-discription.def]
 
 **OR**
 
-```python CSV-to-QIF.py -builtin [file-to-convert.csv] [csv-discription.def]
+    python CSV-to-QIF.py -builtin [file-to-convert.csv] [csv-discription.def]
 
 The definition file is a csv that is setup with the properties of the csv to convert.
 The format is as follows (also see the example .def file)
 
-```Date,Date Format,Amount,Memo,Payee,Separator,Header,Sign,Category,Account
-```0,not used,3,2,1,",",1,4,5,6
+    Date,Date Format,Amount,Memo,Payee,Separator,Header,Sign,Category,Account
+    0,not used,3,2,1,",",1,4,5,6
 
 (This is the format used for Mint.com exports.)
 
