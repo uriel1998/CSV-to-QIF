@@ -1,8 +1,8 @@
-#CSV to QIF Converter#
+#CSV to QIF Converter
 
 This is a Python program to take a CSV file and convert it to a QIF file. QIF is an open specification for reading and writing financial data. This is a working Beta release.
 
-Find my write up Here
+Find Mario's write up here
     ------> http://mario.mtechcreations.com/programing/csv-to-qif-python-converter/
 
 ## About this Program ##
@@ -37,9 +37,9 @@ The format is as follows (also see the example .def file)
 * The header cell is used to tell the program if it needs to skip the first row or not. Most times this first row just holds the names of each column and needs to be skipped. If so Place a 1 in the cell, otherwise place a 0.
 
 
-Written by Mario Avenoso of mtechcreations.com
-Code added by Steven Saus for sign and multi-account import/export
-MIT license, check license.txt for more information
+Written by Mario Avenoso of mtechcreations.com  
+Code added by Steven Saus for sign and multi-account import/export  
+MIT license, check license.txt for more information  
 
 
 ## Wish List ##
