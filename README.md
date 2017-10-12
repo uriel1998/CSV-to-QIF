@@ -1,4 +1,4 @@
-#CSV to QIF Converter
+# CSV to QIF Converter #
 
 This is a Python program to take a CSV file and convert it to a QIF file. QIF is an open specification for reading and writing financial data. This is a working Beta release.
 
